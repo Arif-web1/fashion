@@ -1,0 +1,126 @@
+.landing-page{
+background: #FFFBF0;
+padding-bottom:60px;
+margin-bottom: 100px;
+box-shadow: 3px 3px 3px 3px #FFFBF0;
+}
+.nav-container{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.icon{
+    width: 291.11px;
+    height: 39.27px;
+}
+.nav2nd>ul{
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: large;
+    font-weight: bold;
+display: flex;
+gap: 30px;
+}
+.nav2nd>ul>li{
+    list-style: none;
+    
+}
+.nav2nd>ul>li>a{
+    text-decoration: none;
+    color: #000;
+}
+.main-landing{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.lndg-left-buttom{
+    font-size: large;
+background-color: #A4BC46;
+text-decoration: none;
+border: none;
+padding: 15px 25px;
+border-radius:5px;
+}
+a{text-decoration: none;}
+i{color: aliceblue; margin-right: 5px;}
+/* landing page section end here */
+
+/* women cloth start */
+
+.main-women-cloth{
+display: flex;
+justify-content: space-evenly;
+margin-bottom: 50px;
+}
+
+.women-cloth1{
+    border-radius: 10px;
+padding: 10px;
+    box-shadow:2px 2px 2px 2px #f5efef ;
+}
+
+.women-cloth1 img{
+    width: 293px;
+    height: 293px;
+    padding: 5px;
+    background-color:#F1F1F1;
+    border-radius: 10px;
+}
+
+.cloth-and-price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.price-h1{
+    color: #FABE4C;
+    font-size: 30px;
+}
+/* feature start */
+.main-1st{
+margin-top: 175px;
+margin-bottom: 200px;
+}
+
+.main-feature{
+    display:flex ;
+    justify-content: space-around;
+    align-items: center;
+}
+.feature-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    gap: 15px;
+    
+}
+.left-feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    box-shadow:2px 2px 2px 2px #f5efef ;
+
+}
+
+.left-f-logo img{
+width: 78px;
+height: 82px;
+
+}
+.left-f-logo {
+    margin: 15px;
+}
+.left-f-info{
+    margin-right: 30px;
+}
+
+.right-side-f img{
+    width: 599px;
+    height: 354px;
+}
+.blue1{color:#363958;}
